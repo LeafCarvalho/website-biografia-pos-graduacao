@@ -1,0 +1,20 @@
+.containerHeader {
+  background-color: #2F558D;
+  display: flex;
+  justify-content: center;
+}
+
+.contentHeader {
+  display: inline-flex;
+  gap: 16px;
+  padding: 20px 0;
+}
+
+.itemHeader {
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color .5s ease;
+}
+
+.itemHeader:hover {
+  border-bottom: 1px solid #D7D7D7;
+}
