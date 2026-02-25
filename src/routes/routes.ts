@@ -1,13 +1,14 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, redirect } from "react-router";
 import App from "../App";
-import { Home } from "../components/Home";
+import Blog from "@/components/Blog";
 
 export const Routes = createBrowserRouter([
     {
     path: "/",
     Component: App,
     children: [
-      { index: true, Component: Home },
+      { index: true, loader: () => redirect("/blog") },
+      { path: "blog", Component: Blog },
     ],
   },
 ]);
