@@ -1,0 +1,25 @@
+.containerProfile {
+  padding: 44px 0 66px 0;
+  background-color: #2F558D;
+  display: flex;
+  justify-content: center;
+}
+
+.contentProfile {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  width: 900px;
+  margin: auto;
+}
+
+.pictureProfile {
+  width: 180px;
+  height: 180px;
+}
+
+.textInformationsProfile {
+  display: grid;
+  gap: 16px;
+  color: #F9F9F9;
+}
