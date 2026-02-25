@@ -50,7 +50,13 @@ export default function News({ limit }: NewsProps) {
         </div>
       ))}
 
-      <a href="/blog">Ver tudo</a>
+      <a
+        href="https://spacenews.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ver tudo
+      </a>
     </div>
   );
 }

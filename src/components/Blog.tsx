@@ -3,7 +3,7 @@ import News from "./news/news";
 export default function Blog() {
   return (
     <div>
-      <News />
+      <News limit={3}/>
     </div>
   )
 }
